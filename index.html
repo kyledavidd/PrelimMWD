@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Kyle David</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Landing Page -->
+    <header id="home" class="bg-secondary text-white text-center py-5">
+        <div class="container">
+            <img src="https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/458507727_8062757957106718_619559535504407693_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEA0XYq-1BoeDDGvlqaBHE0MZz4lz1BAvYxnPiXPUEC9s5U3a-nT_ktHm_xdhD0AstlBM4gG9tvB4vC6Ly5VEY8&_nc_ohc=pbvh9qlBAogQ7kNvgGQZ2YK&_nc_ht=scontent.fmnl33-5.fna&oh=00_AYAbmDIafcXDo1u4rpq0hMwhptb8NwdAyqTXwW7NRS3PzA&oe=66E5E9E9" alt="Portrait" class="img-fluid rounded-circle mb-3" style="width: 300px;">
+            <h1>Hi, I'm Yhuan Kyle David</h1>
+            <h2>Welcome to My Portfolio</h2>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2 class="text-light">About Me</h2>
+            <p class="lead">I’m an aspiring IT professional with a passion for web development. My dream is to become a full-stack developer and work on innovative tech projects that make a difference. I am 20 years old and I'm currently studying BSIT 3rd year at the University of the Assumption. I love watching series about drugs and history. My top three are Breaking Bad, Prison Break and Narcos. I am from San Matias, Santo Tomas, Pampanga and i also love playing video games especially shooting games like Valorant and CSGO.</p>
+        </div>
+
+        <div class="social-media mt-4 text-center">
+            <a href="https://www.facebook.com/kyledav1d/" class="btn btn-outline-primary" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/kyledavidd_/" class="btn btn-outline-primary" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="image/fbclone.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">WEBSITE CLONING</h5>
+                            <p class="card-text">Here is the website cloning project i did.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="image/ua website design.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">UA WEBSITE REDESIGN</h5>
+                            <p class="card-text">We redesigned the UA website.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="image/food.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Food Website</h5>
+                            <p class="card-text">Here is the Food delivery website i did using Figma.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Modals for Projects -->
+    <!-- Modal for Project 1 -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="project1ModalLabel">WEBSITE CLONING</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="image/fbclone.png" class="img-fluid mb-3" alt="Project 1">
+                    <p class="text-dark">As you can see here i cloned the facebook login page.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Project 2 -->
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="project2ModalLabel">UA WEBSITE REDESIGN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="image/ua website design.png" class="img-fluid mb-3" alt="Project 2">
+                    <p class="text-dark">We basically redesigned the whole University of the Assumption website when we was in 1st year using Figma.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Project 3 -->
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="project3ModalLabel">Food Website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="image/food.png" class="img-fluid mb-3" alt="Project 3">
+                    <p class="text-dark">This is a food delivery website design i created using Figma.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tools Section -->
+    <section id="tools" class="py-5 text-white text-center">
+        <div class="container">
+            <h2>Tools I Use</h2>
+            <ul class="list-inline">
+                <li class="list-inline-item"><img src="image/html5-emblem-orange-shield-and-white-text-vector-removebg-preview.png" alt="HTML5" class="img-fluid" style="width: 200px;"></li>
+                <li class="list-inline-item"><img src="https://marketplacedesignoye.s3.ap-south-1.amazonaws.com/css-programming-language-icon-symbol-logo-vector-_627.png" alt="CSS3" class="img-fluid" style="width: 190px;"></li>
+                <li class="list-inline-item"><img src="image/png-transparent-bootstrap-plain-wordmark-logo-icon-removebg-preview.png" alt="Bootstrap" class="img-fluid" style="width: 180px;"></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-center">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
